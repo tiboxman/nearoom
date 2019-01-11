@@ -1,0 +1,92 @@
+.bg {
+  background-color: rgb(23,35,47);
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 7vh auto 5vh auto;
+  color: rgb(235, 240, 244) ;
+  font-weight: bold;
+}
+
+.container {
+  width: 70%;
+  height: 70vh;
+  margin: 0 auto 0 auto;
+  background-color: rgb(46, 64, 84);
+  border-radius: 10px;
+  display: flex;
+  color: rgb(235, 240, 244) ;
+  padding: 4vw;
+  box-sizing: border-box;
+}
+
+.paragraph-container {
+  width: 60%;
+  box-sizing: border-box;
+  /*border: 1px red solid;*/
+  padding: 0 5vw;
+
+}
+
+.paragraph-title {
+  font-weight: bold;
+  font-size: 1.2vw;
+}
+
+.paragraph {
+  color: rgb(143, 155, 167);
+  font-size: 1vw;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+#first {
+  margin-bottom: 3vw;
+}
+
+.icon-container {
+  width: 40%;
+  height: 100%;
+  background-color: rgb(23,35,47);
+  box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 1.5vw;
+  box-sizing: border-box;
+  align-items: baseline;
+}
+
+.section {
+  /*/border: 1px solid red;*/
+  width: 100%;
+  height: 25%;
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-img {
+  width: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.icon-label {
+  margin: 0;
+}
+
+.text-container {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.icon-para {
+
+}
+
+
+

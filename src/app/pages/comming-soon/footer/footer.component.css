@@ -1,0 +1,7 @@
+.bg {
+  height: 33vh;
+  width: 100%;
+  background-image: linear-gradient(to top, black, rgb(23,35,47));
+  display: flex;
+  flex-direction: column;
+}
