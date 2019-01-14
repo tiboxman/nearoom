@@ -4,12 +4,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Requierement
 
-Intall NodeJS & npm (follow instructions here: https://www.npmjs.com/get-npm).
+Install NodeJS & npm (follow instructions here: https://www.npmjs.com/get-npm).
+
+Install Angular CLI via `npm install -g @angular/cli`
 
 ## Initialisation
 
 Open a terminal at project root.
-Run `npm init` to initialize the project.
+Run `npm install` to initialize the project.
 
 ## Development server
 
