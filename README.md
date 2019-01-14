@@ -2,6 +2,15 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.1.
 
+## Requierement
+
+Intall NodeJS & npm (follow instructions here: https://www.npmjs.com/get-npm).
+
+## Initialisation
+
+Open a terminal at project root.
+Run `npm init` to initialize the project.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
