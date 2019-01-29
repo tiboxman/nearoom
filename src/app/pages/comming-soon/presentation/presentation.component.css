@@ -14,16 +14,14 @@
 
 .container {
   max-width: 1100px;
-  width: 80%;
-  height: 70vh;
+  height: 75%;
+  width: 90%;
   margin: 0 auto;
   background-color: rgb(46, 64, 84);
-  border-radius: 10px;
+  border-radius: 5px;
   color: rgb(235, 240, 244) ;
   padding: 4vw;
   box-sizing: border-box;
-  display: flex;
-  flex-direction: row;
 }
 
 .paragraph-container {
@@ -34,14 +32,13 @@
 
 .paragraph-title {
   font-weight: bold;
-  font-size: 1.2vw;
+  font-size: calc(7px + 1vw);
 }
 
 .paragraph {
   color: rgb(143, 155, 167);
-  font-size: 1vw;
-  line-height: 26px;
-  font-weight: bold;
+  font-size: calc(5px + 0.7vw);
+  font-weight: normal;
 }
 
 .paragraph#first {
@@ -49,45 +46,28 @@
 }
 
 .icon-container {
-  height: 100%;
   background-color: rgb(23,35,47);
   box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.3);
-  display: flex;
-  flex-direction: column;
-  padding: 3vw;
+  padding: 1vw;
   box-sizing: border-box;
   align-items: baseline;
+  box-sizing: content-box;
 }
 
 .section {
-  /*/border: 1px solid red;*/
+  border: 1px solid red;
   width: 100%;
-  min-width: 250px;
-  height: 25%;
-  display: flex;
-  flex-direction: row;
 }
 
 .icon-img {
   width: 72px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.text-container {
-  width: 85%;
-  display: flex;
-  flex-direction: column;
-  font-size: calc(10px + 0.6vw);
 }
 
 .icon-label {
   margin: 0;
-  font-size: calc(10px + 0.5vw);
+  font-size: calc(8px + 0.8vw);
 }
 
 .icon-para {
-  font-size: calc(10px + 0.3vw);
-
+  font-size: calc(6px + 0.6vw);
 }

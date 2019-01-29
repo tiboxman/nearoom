@@ -1,48 +1,20 @@
 <div ngClass="bg">
   <h2 ngClass="title">Trouvez un lieu qui correspond à vos projets</h2>
-  <div ngClass="container">
-    <div ngClass="paragraph-container">
+  <div ngClass="container" fxLayout="row" fxLayout.lt-md="column">
+
+    <div ngClass="paragraph-container" fxFlex="50" fxFlex.xs="100">
       <span ngClass="paragraph-title">Phasellus eget sollicitudin mi</span>
       <p ngClass="paragraph" id="first">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vel nisi rutrum, rhoncus libero commodo, pharetra ante. Suspendisse vitae erat ante. Proin aliquam ex lectus, a sagittis erat ultrices vulputate. Proin eget eros elit. Mauris sed ante quis urna facilisis cursus vel id quam. In suscipit tristique est, commodo molestie risus congue at.</p>
       <span ngClass="paragraph-title">Phasellus eget sollicitudin mi</span>
       <p ngClass="paragraph">Phasellus eget sollicitudin mi. Aliquam suscipit felis quis enim lobortis, id eleifend mauris scelerisque. Integer posuere odio at dui dapibus, et scelerisque lorem euismod. Donec non lacus in elit bibendum dapibus at non massa. Donec vehicula egestas sem sit amet posuere. Maecenas bibendum sapien blandit ligula iaculis finibus.</p>
     </div>
-    <div ngClass="icon-container">
-      <div ngClass="section">
-        <div ngClass="icon-img">
-          <img src="./assets/img/arrow_down_white.png">
-        </div>
-        <div ngClass="text-container">
-          <h3 ngClass="icon-label">Inspiration</h3>
-          <p ngClass="icon-para">Phasellus eget sollicitudin mi. Aliquam suscipit felis quis enim lobortis, id eleifend mauris scelerisque.</p>
-        </div>
-      </div>
 
-      <div ngClass="section">
+    <div ngClass="icon-container" fxFlex="50" fxFlex.xs="100" fxLayout="column" fxLayoutAlign="space-between center">
+      <div ngClass="section" fxLayout="row" *ngFor="let s of sections" >
         <div ngClass="icon-img">
           <img src="./assets/img/arrow_down_white.png">
         </div>
-        <div ngClass="text-container">
-          <h3 ngClass="icon-label">Inspiration</h3>
-          <p ngClass="icon-para">Phasellus eget sollicitudin mi. Aliquam suscipit felis quis enim lobortis, id eleifend mauris scelerisque.</p>
-        </div>
-      </div>
-
-      <div ngClass="section">
-        <div ngClass="icon-img">
-          <img src="./assets/img/arrow_down_white.png">
-        </div>
-        <div ngClass="text-container">
-          <h3 ngClass="icon-label">Inspiration</h3>
-          <p ngClass="icon-para">Phasellus eget sollicitudin mi. Aliquam suscipit felis quis enim lobortis, id eleifend mauris scelerisque.</p>
-        </div>
-      </div>
-
-      <div ngClass="section">
-        <div ngClass="icon-img">
-          <img src="./assets/img/arrow_down_white.png">
-        </div>
-        <div ngClass="text-container">
+        <div ngClass="text-container" fxLayout="column">
           <h3 ngClass="icon-label">Inspiration</h3>
           <p ngClass="icon-para">Phasellus eget sollicitudin mi. Aliquam suscipit felis quis enim lobortis, id eleifend mauris scelerisque.</p>
         </div>

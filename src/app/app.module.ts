@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent } from './app.component';
 import { CommingSoonComponent } from './pages/comming-soon/comming-soon.component';
@@ -17,10 +18,11 @@ import { FooterComponent } from './pages/comming-soon/footer/footer.component';
     PresentationComponent,
     EmailInputComponent,
     FAQComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
