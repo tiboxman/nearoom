@@ -1,17 +1,20 @@
 .bg {
   background-color: rgb(23,35,47);
-  display: flex;
-  justify-content: center;
-  align-items: center;
   color: rgb(235, 240, 244); ;
+}
+.title {
+  padding: 5vw 0;
+  margin: 0;
+  color: rgb(235, 240, 244) ;
+  font-weight: bolder;
+  text-align: center;
+  font-size: calc(10px + 0.8vw);
 }
 
 .container {
-  width: 70%;
-  height: 70%;
   border: 1px solid red;
-  display: flex;
-  flex-direction: row;
+  width: 90%;
+  margin: auto;
 }
 
 .img-container {
@@ -29,8 +32,8 @@
 }
 
 .form {
-  width: 50%;
-  height: 100%;
+  width: 500px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;

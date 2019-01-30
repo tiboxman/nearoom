@@ -14,7 +14,6 @@
 
 .container {
   max-width: 1100px;
-  height: 75%;
   width: 90%;
   margin: 0 auto;
   background-color: rgb(46, 64, 84);
@@ -26,7 +25,7 @@
 
 .paragraph-container {
   box-sizing: border-box;
-  padding: 0 5vw;
+  padding: 1vw 5vw;
 
 }
 
@@ -48,14 +47,10 @@
 .icon-container {
   background-color: rgb(23,35,47);
   box-shadow: inset -5px -5px 15px rgba(0, 0, 0, 0.3);
-  padding: 1vw;
-  box-sizing: border-box;
-  align-items: baseline;
-  box-sizing: content-box;
+  padding: 2vw 1vw;
 }
 
 .section {
-  border: 1px solid red;
   width: 100%;
 }
 

@@ -1,6 +1,7 @@
 <div ngClass="bg">
-  <div ngClass="container">
-    <div ngClass="img-container">
+  <h2 ngClass="title">Rejoins une vaste communauté d'artistes</h2>
+  <div ngClass="container" fxLayout="row" fxLayout.lt-md="column">
+    <div ngClass="img-container" [fxShow.lt-md]="false">
       <!--<img src="">-->
       <div ngClass="img"></div>
     </div>
