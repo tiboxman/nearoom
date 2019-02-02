@@ -16,7 +16,7 @@
 .container {
   max-width: 80%;
   margin: 0 auto;
-  background-color: rgb(46, 64, 84);
+  background-color: rgba(46, 64, 84, 0.3);
   border-radius: 5px;
   color: rgb(235, 240, 244) ;
   padding: 4vw;

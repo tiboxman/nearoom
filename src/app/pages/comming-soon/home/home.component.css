@@ -45,13 +45,13 @@
   border: 0;
   font-size: calc(8px + 1vw);
   border-radius: 5px;
-  transition: 0.5s;
+  transition: 0.2s;
   color: white;
   font-weight: bold;
   flex: 1 1 auto;
   background-size: 200% auto;
   background-image: linear-gradient(to right, #1577ce 0%, #7753b7 50%, #c232a1 100%);
-  opacity: 1;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 .button:hover {

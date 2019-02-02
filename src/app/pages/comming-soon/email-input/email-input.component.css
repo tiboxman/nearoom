@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+
 }
 
 .bg-lt-md {
@@ -12,10 +13,11 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  height: 100vh;
 }
 
 .title {
-  padding: 5vw 0;
+  padding: 10vh 0 0 0 ;
   margin: 0;
   color: rgb(235, 240, 244) ;
   font-weight: bolder;
