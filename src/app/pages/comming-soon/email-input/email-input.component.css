@@ -1,7 +1,19 @@
 .bg {
   background-color: rgb(23,35,47);
-  color: rgb(235, 240, 244); ;
+  color: rgb(235, 240, 244);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.bg-lt-md {
+  background-color: rgb(23,35,47);
+  color: rgb(235, 240, 244);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .title {
   padding: 5vw 0;
   margin: 0;
@@ -12,45 +24,67 @@
 }
 
 .container {
-  border: 1px solid red;
   width: 90%;
+  max-width: 70%;
   margin: auto;
 }
 
 .img-container {
-  width: 50%;
-  height: 100%;
-  border: 1px solid green;
-  background-color: rgb(235, 240, 244);
+  height: 65vh;
+  width: calc(65vh * 0.8125);
 }
 
 .img {
-  border: 1px solid blue;
-  width: 80%;
-  height: 100%;
+  /*border: 1px solid blue;*/
+  height: 60vh;
+  width: calc(60vh * 0.8125);
   margin: auto;
+  background: url("/assets/img/interior.jpg") center no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+  ;
 }
 
 .form {
-  width: 500px;
-  height: 500px;
+  min-height: 475px;
+  min-width: 475px;
+  height: 30vw;
+  width: 30vw;
+  padding: 2%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
   background-color: rgba(46, 64, 84, 0.3);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+
 
 }
 
 .form-title {
-  font-size: 1.5vw;
+  font-size: 130%;
+  margin-top: 0;
+}
+
+.form-lt-md {
+  font-size: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(46, 64, 84, 0.3);
+  border-radius: 50% ;
+  width: 90vw;
+  height: 90vw;
+  padding: 2%;
+
 }
 
 .form-paragraphe {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
-  font-size: 1vw;
+  font-size: 80%;
   text-align: center;
   color: lightgrey;
 }
@@ -59,21 +93,24 @@
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  width: 60%;
+  width: 70%;
+  height: 40px;
 }
 
 .input {
   background-color: rgb(46, 64, 84);
-  width: 60%;
-  height: 2vw;
   border: 0;
+  height: 100%;
+  width: 70%;
   border-radius: 5px;
   margin-right: 1vw;
   padding-left: 15px;
+  color: rgb(235, 240, 244);
+  font-size: 100%;
 }
 
 .input-label {
-  font-size: 1vw;
+  font-size: 90%;
 }
 
 .button {
@@ -93,8 +130,9 @@
 }
 
 .details {
-  font-size: 0.5vw;
-  color: darkgrey;
-  font-weight: normal;
+  font-size: 50%;
+  color: white;
+  opacity: 0.5;
+  font-weight: 300;
   width: 100%;
 }

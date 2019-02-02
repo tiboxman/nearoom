@@ -1,11 +1,10 @@
-<div ngClass="bg">
+<div ngClass="bg" [ngClass.lt-md]="'bg-lt-md'">
   <h2 ngClass="title">Rejoins une vaste communauté d'artistes</h2>
-  <div ngClass="container" fxLayout="row" fxLayout.lt-md="column">
+  <div ngClass="container" fxLayout="row" fxLayout.lt-md="column" fxLayoutAlign="center center">
     <div ngClass="img-container" [fxShow.lt-md]="false">
-      <!--<img src="">-->
-      <div ngClass="img"></div>
+      <div ngClass="img" ></div>
     </div>
-    <div ngClass="form">
+    <div ngClass="form" [ngClass.lt-md]="'form-lt-md'">
       <h2 ngClass="form-title">On arrive bientôt ...</h2>
       <p ngClass="form-paragraphe">Vous pourrez très bientôt accéder à notre plateforme dédiée pour trouver et réserver facilement vos prochains lieux de shooting et faire des économies sur la location d’un studio. Explorez les espaces, réservez sans difficulté et payez en toute transparence.
         <br>

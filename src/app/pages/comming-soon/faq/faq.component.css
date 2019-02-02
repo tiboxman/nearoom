@@ -8,6 +8,7 @@
   margin: 7vh auto 5vh auto;
   color: rgb(235, 240, 244) ;
   font-weight: bold;
+  font-size: calc(10px + 0.8vw);
 }
 
 .container {
