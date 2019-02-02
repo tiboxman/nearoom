@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PresentationComponent implements OnInit {
 
-  private sections = [{}, {}, {}, {}]
+  private sections = [
+                       {name: "bulb", src: "./assets/img/bulb.png"},
+                       {name: "bulb", src: "./assets/img/euro.png"},
+                       {name: "bulb", src: "./assets/img/locked.png"},
+                       {name: "bulb", src: "./assets/img/spotlight.png"}
+                     ];
 
   constructor() { }
 

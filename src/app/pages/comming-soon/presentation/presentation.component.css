@@ -59,6 +59,14 @@
 
 .icon-img {
   width: 72px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 5% 0 0;
+}
+
+.section_icon{
+  width: 100%;
 }
 
 .icon-label {
